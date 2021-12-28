@@ -1,0 +1,98 @@
+.wrapper-head {
+  padding: 1.5rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
+  box-shadow: 0 3px 30px rgba(#daacb7, 0.3);
+
+  .link-logo {
+    @include fader;
+  }
+
+  .nav-primary {
+    a {
+      color: $col-purple;
+      text-transform: lowercase;
+      font-weight: 400;
+      font-size: 1rem;
+      border-top: 2px solid transparent;
+      border-bottom: 2px solid transparent;
+      display: inline-block;
+      padding-bottom: 0.2rem;
+      @include fader;
+
+      &.is-active {
+        border-bottom: 2px solid $col-purple;
+      }
+    }
+
+    li + li {
+      margin-left: 2rem !important;
+    }
+  }
+}
+
+.wrapper-section {
+  padding: 12rem 0;
+  background-color: #fff;
+
+  .medium-7 {
+    padding-right: 3rem;
+  }
+
+  &--lilac {
+    background-color: $col-lilac;
+  }
+
+  &--wave-base {
+    position: relative;
+    padding: 5rem 0;
+    margin-bottom: 2rem;
+
+    &:after {
+      content: '';
+      position: absolute;
+      bottom: -79px;
+      background-image: url('../img/svgs/wave-base.svg');
+      background-size: auto;
+      height: 80px;
+      width: 100%;
+      z-index: 10;
+    }
+  }
+
+  &--wave-top {
+    position: relative;
+    padding: 10rem 0;
+    margin: 2rem 0;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -79px;
+      background-image: url('../img/svgs/wave-base.svg');
+      background-size: auto;
+      height: 80px;
+      width: 100%;
+      z-index: 10;
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.wrapper-footer {
+  background-color: $col-purple;
+  padding: 1rem;
+
+  p,
+  a {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+  }
+
+  a {
+    @include fader;
+  }
+}

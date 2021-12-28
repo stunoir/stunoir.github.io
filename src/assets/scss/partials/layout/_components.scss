@@ -1,0 +1,112 @@
+.feature-block {
+  background-color: rgba(#fff, 0.8);
+  padding: 1.5rem;
+  border-bottom: 4px solid rgba(78, 19, 119, 0.15);
+  box-shadow: 0 0 10px rgba($col-purple, 0.1);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+
+  hr {
+    border-bottom: 1px solid $col-lilac;
+  }
+}
+
+.feature-small {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
+.block-skills {
+  p {
+    color: $col-purple;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    font-weight: 400;
+  }
+
+  [class^='sh-'] {
+    color: lighten($col-purple, 10%);
+    text-align: center;
+    margin-right: 1rem;
+    font-weight: 400;
+    width: 60px;
+    background-image: linear-gradient(to right, lighten($col-purple, 30%), $col-purple);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
+
+.work-card {
+  background-color: rgba(#fff, 0.8);
+  border-bottom: 4px solid rgba(78, 19, 119, 0.15);
+  box-shadow: 0 0 10px rgba($col-purple, 0.1);
+  border-radius: 6px;
+  margin-bottom: 2rem;
+  display: block;
+  transition: transform 0.3s;
+
+  .img {
+    display: block;
+    height: 220px;
+    border-radius: 6px 6px 0 0;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $col-purple;
+    box-shadow: 0 3px 10px rgba($col-purple, 0.05);
+  }
+
+  .content {
+    padding: 1.5rem;
+    transition: background-color 0.3s;
+
+    .title {
+      color: $col-purple;
+      font-weight: 400;
+      margin-bottom: 0;
+      font-size: 1.3rem;
+      font-weight: 300;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+
+    .content {
+      background-color: lighten($col-lilac, 4%);
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  border: 1px solid $col-purple;
+  color: $col-purple;
+  background-color: transparent;
+
+  &:hover,
+  &:focus {
+    background-color: $col-purple;
+    color: #fff;
+  }
+}
+
+.feature-skill-icons {
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+
+  li {
+    font-size: 1.5rem;
+    color: lighten($col-purple, 10%);
+  }
+}

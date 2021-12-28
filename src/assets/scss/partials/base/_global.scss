@@ -1,0 +1,45 @@
+* {
+  font-family: $font-main !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.grid-container {
+  max-width: 70rem;
+}
+
+.u-pad-top {
+  padding-top: 8rem !important;
+}
+
+.bg-blob-hero {
+  background-image: url('../img/svgs/blob-2.svg');
+  background-repeat: no-repeat;
+  background-position: right 100px center;
+  background-size: 40%;
+}
+
+.bg-blob-one {
+  background-image: url('../img/svgs/blob.svg');
+  background-repeat: no-repeat;
+  background-position: right -300px center;
+  background-size: 60%;
+}
+
+.bg-blob-two {
+  background-image: url('../img/svgs/blob-2.svg');
+  background-repeat: no-repeat;
+  background-position: right -200px center;
+  background-size: 60%;
+}
+
+@mixin fader {
+  transition: opacity 0.3s;
+  opacity: 1;
+
+  &:hover {
+    opacity: 0.6;
+  }
+}

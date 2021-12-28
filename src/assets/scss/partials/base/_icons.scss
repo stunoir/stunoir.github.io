@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('../icons/icomoon.ttf?mirws5') format('truetype'), url('../icons/icomoon.woff?mirws5') format('woff'),
+    url('../icons/icomoon.svg?mirws5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^='sh-icon-'],
+[class*=' sh-icon-'] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sh-icon-trophy:before {
+  content: '\e918';
+}
+.sh-icon-award:before {
+  content: '\e914';
+}
+.sh-icon-music:before {
+  content: '\e915';
+}
+.sh-icon-api:before {
+  content: '\e912';
+}
+.sh-icon-doc:before {
+  content: '\e911';
+}
+.sh-icon-storage:before {
+  content: '\e910';
+}
+.sh-icon-timelapse:before {
+  content: '\e90c';
+}
+.sh-icon-lab:before {
+  content: '\e90e';
+}
+.sh-icon-document-certificate1:before {
+  content: '\e916';
+}
+.sh-icon-document-certificate:before {
+  content: '\e917';
+}
+.sh-icon-sql:before {
+  content: '\e909';
+}
+.sh-icon-team:before {
+  content: '\e903';
+}
+.sh-icon-meter:before {
+  content: '\e904';
+}
+.sh-icon-accessibility:before {
+  content: '\e905';
+}
+.sh-icon-jira:before {
+  content: '\e906';
+}
+.sh-icon-javascript:before {
+  content: '\e90a';
+}
+.sh-icon-css3:before {
+  content: '\e90b';
+}
+.sh-icon-kentico:before {
+  content: '\e901';
+}
+.sh-icon-jira:before {
+  content: '\e906';
+}
+.sh-icon-sass:before {
+  content: '\e907';
+}
+.sh-icon-vue:before {
+  content: '\e900';
+}
+.sh-icon-handshake-o:before {
+  content: '\e913';
+}
+.sh-icon-database:before {
+  content: '\e90f';
+}
+.sh-icon-microphone:before {
+  content: '\e90d';
+}
+.sh-icon-github:before {
+  content: '\e908';
+}
+.sh-icon-html5:before {
+  content: '\e902';
+}

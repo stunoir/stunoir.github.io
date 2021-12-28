@@ -1,0 +1,57 @@
+.section-title {
+  font-weight: 700;
+  color: $col-purple;
+  font-size: 2.5rem;
+  background-image: linear-gradient(to right, lighten($col-purple, 20%), $col-purple);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  position: relative;
+  margin-bottom: 2rem;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 3px;
+    background-image: linear-gradient(to right, $col-purple, lighten($col-purple, 40%));
+    bottom: -0.8rem;
+    left: 0;
+  }
+
+  &--large {
+    font-size: 3rem;
+  }
+}
+
+.section-subtitle {
+  color: lighten($col-purple, 10%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  line-height: 1;
+  display: flex;
+  justify-content: space-between;
+
+  [class^='sh-'] {
+    font-size: 1.3rem;
+  }
+}
+
+.section-summary {
+  color: $col-purple;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+p {
+  color: $col-purple;
+  font-size: 1.3rem;
+  font-weight: 300;
+
+  strong {
+    display: block;
+    color: $col-purple;
+    font-weight: 400;
+  }
+}
