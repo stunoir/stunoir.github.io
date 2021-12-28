@@ -4,7 +4,9 @@
       <div class="grid-x grid-padding-x">
         <div class="medium-8 cell">
           <h3 class="section-title">Work</h3>
-          <p class="section-summary">A sample of {{ getTotalWork }} recent items carried out in my current role:</p>
+          <p class="section-summary">
+            A demo sample of {{ getTotalWork }} recent items carried out in my current role:
+          </p>
         </div>
       </div>
       <br />
@@ -25,59 +27,59 @@
 </template>
 
 <script>
-export default {
-  computed: {
-    getTotalWork() {
-      return this.work.length;
+  export default {
+    computed: {
+      getTotalWork() {
+        return this.work.length
+      },
     },
-  },
-  data() {
-    return {
-      work: [
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-        {
-          img: '',
-          title: 'Some Website',
-          url: '',
-        },
-      ],
-    };
-  },
-};
+    data() {
+      return {
+        work: [
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+          {
+            img: '',
+            title: 'Some Website',
+            url: '',
+          },
+        ],
+      }
+    },
+  }
 </script>
 
 <style scoped>
-.wrapper-section {
-  padding-bottom: 7rem;
-}
-
-@media screen and (max-width: 39.9375em) {
   .wrapper-section {
-    padding-bottom: 3rem;
+    padding-bottom: 7rem;
   }
-}
+
+  @media screen and (max-width: 39.9375em) {
+    .wrapper-section {
+      padding-bottom: 3rem;
+    }
+  }
 </style>

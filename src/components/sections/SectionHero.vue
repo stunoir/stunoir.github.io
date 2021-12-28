@@ -10,11 +10,13 @@
             well-disciplined in the development lifecycle; producing websites & applications that not only meet the
             needs of the client, but importantly create a clean, engaging, and accessible experience for all users.
           </p>
+
           <ul class="menu feature-skill-icons simple">
             <li v-for="skill in skillPreview" :key="skill.item">
               <span :class="skill.item"></span>
             </li>
           </ul>
+
           <a class="btn" href="#about">Find out more</a>
         </div>
         <div class="medium-5 align-self-middle text-right cell">
@@ -30,25 +32,25 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      skillPreview: [
-        { item: 'sh-icon-html5' },
-        { item: 'sh-icon-javascript' },
-        { item: 'sh-icon-sass' },
-        { item: 'sh-icon-vue' },
-        { item: 'sh-icon-accessibility' },
-      ],
-    };
-  },
-  computed: {
-    getWorkYears() {
-      const dateCurr = new Date().getFullYear();
-      const dateStart = new Date('2002', '1', '1').getFullYear();
-      const diffYears = dateCurr - dateStart;
-      return diffYears;
+  export default {
+    data() {
+      return {
+        skillPreview: [
+          { item: 'sh-icon-html5' },
+          { item: 'sh-icon-javascript' },
+          { item: 'sh-icon-sass' },
+          { item: 'sh-icon-accessibility' },
+          { item: 'sh-icon-vue' },
+        ],
+      }
     },
-  },
-};
+    computed: {
+      getWorkYears() {
+        const dateCurr = new Date().getFullYear()
+        const dateStart = new Date('2002', '1', '1').getFullYear()
+        const diffYears = dateCurr - dateStart
+        return diffYears
+      },
+    },
+  }
 </script>
