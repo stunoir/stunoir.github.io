@@ -37,9 +37,19 @@
       return {
         work: [
           {
-            img: '',
-            title: 'Some Website',
-            url: '',
+            img: '/assets/work/stuvies.jpg',
+            title: 'Movies Demo (JS)',
+            url: 'https://stunoir-movie-finder.netlify.app',
+          },
+          {
+            img: '/assets/work/portfolio.jpg',
+            title: 'Portfolio - Github (Vue.js)',
+            url: 'https://github.com/stunoir/stunoir.github.io',
+          },
+          {
+            img: '/assets/work/ecomm.jpg',
+            title: 'Ecomm Demo (React)',
+            url: 'https://github.com/stunoir/crwn-clothing',
           },
           {
             img: '',
@@ -47,19 +57,9 @@
             url: '',
           },
           {
-            img: '',
-            title: 'Some Website',
-            url: '',
-          },
-          {
-            img: '',
-            title: 'Some Website',
-            url: '',
-          },
-          {
-            img: '',
-            title: 'Some Website',
-            url: '',
+            img: '/assets/work/stuvies2.jpg',
+            title: 'Movies - Github (React)',
+            url: 'https://github.com/stunoir/stunoir-movies-react',
           },
           {
             img: '',
