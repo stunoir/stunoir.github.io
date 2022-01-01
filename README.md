@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfilio site I built and designed. Uses HTML, SCSS, and Vue
+Portfolio site I built and designed. Uses HTML, SCSS, and Vue
 
 ## Project setup
 
