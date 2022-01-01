@@ -18,10 +18,9 @@
       <br />
       <feature-block title="Awards" icon="trophy" :collection="awards"></feature-block>
       <br />
-      <feature-block title="Interests" icon="music" :collection="interests"></feature-block>
-      <br />
       <feature-block title="Current / Recent Courses" icon="award" :collection="learning"></feature-block>
-
+      <br />
+      <feature-block title="Interests" icon="music" :collection="interests"></feature-block>
       <br />
       <a class="btn" href="#skills">View my skills</a>
     </div>
