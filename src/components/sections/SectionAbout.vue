@@ -54,6 +54,10 @@
             details: 'IxD School - 2021 to present',
           },
           {
+            name: 'Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)',
+            details: 'Udemy - 2021 to present',
+          },
+          {
             name: 'Vue.js 3',
             details: 'Vue School - 2021 to present',
           },
