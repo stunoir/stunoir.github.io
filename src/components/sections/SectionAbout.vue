@@ -55,10 +55,6 @@
             details: 'IxD School - 2021 to present',
           },
           {
-            name: 'React Front-To-Back 2021',
-            details: 'Udemy 2021 to present',
-          },
-          {
             name: 'Vue.js 3',
             details: 'Vue School - 2021 to present',
           },
@@ -67,12 +63,16 @@
             details: 'Mastering Nuxt - 2021 to present',
           },
           {
+            name: 'React Front-To-Back 2021',
+            details: 'Udemy 2021-2022 (completed)',
+          },
+          {
             name: 'Management Academy',
-            details: 'News UK - 2021',
+            details: 'News UK - 2021 (completed)',
           },
           {
             name: 'Web Accessibility',
-            details: 'Udacity - 2020',
+            details: 'Udacity - 2020 (completed)',
           },
         ],
         awards: [
