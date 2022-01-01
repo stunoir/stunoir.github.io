@@ -64,7 +64,7 @@
           },
           {
             name: 'React Front-To-Back 2021',
-            details: 'Udemy 2021-2022 (completed)',
+            details: 'Udemy 2021 (completed)',
           },
           {
             name: 'Management Academy',
