@@ -37,7 +37,7 @@
       return {
         work: [
           {
-            img: '/assets/work/food.jpg',
+            img: '/assets/work/foods.jpg',
             title: 'Recipe Finder (React)',
             url: 'https://stunoir-react-recipe-finder.netlify.app/',
           },
