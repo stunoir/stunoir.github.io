@@ -4,7 +4,7 @@
       <div class="grid-x grid-padding-x">
         <div class="medium-8 cell">
           <h3 class="section-title">Work</h3>
-          <p class="section-summary">A sample of {{ getTotalWork }} recent fun:</p>
+          <p class="section-summary">A sample of {{ getTotalWork }} recent bits of fun:</p>
         </div>
       </div>
       <br />
