@@ -43,8 +43,8 @@
           },
           {
             img: '/assets/work/stuvies2.jpg',
-            title: 'Movies - Github (React)',
-            url: 'https://github.com/stunoir/stunoir-movies-react',
+            title: 'Movies (React)',
+            url: 'https://stunoir-react-movie-finder.netlify.app/',
           },
           {
             img: '/assets/work/stuvies.jpg',
