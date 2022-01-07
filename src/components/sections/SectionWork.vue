@@ -61,7 +61,7 @@
           },
           {
             img: '/assets/work/github.jpg',
-            title: 'My Github Profile',
+            title: 'Github Profile',
             url: 'https://github.com/stunoir',
           },
         ],
