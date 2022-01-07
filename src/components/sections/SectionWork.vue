@@ -37,6 +37,16 @@
       return {
         work: [
           {
+            img: '/assets/work/food.jpg',
+            title: 'Recipe Finder (React)',
+            url: 'https://stunoir-react-recipe-finder.netlify.app/',
+          },
+          {
+            img: '/assets/work/stuvies2.jpg',
+            title: 'Movies - Github (React)',
+            url: 'https://github.com/stunoir/stunoir-movies-react',
+          },
+          {
             img: '/assets/work/stuvies.jpg',
             title: 'Movies Demo (JS)',
             url: 'https://stunoir-movie-finder.netlify.app',
@@ -50,16 +60,6 @@
             img: '/assets/work/ecomm.jpg',
             title: 'Ecomm Demo (React)',
             url: 'https://github.com/stunoir/crwn-clothing',
-          },
-          {
-            img: '',
-            title: 'Some Website',
-            url: '',
-          },
-          {
-            img: '/assets/work/stuvies2.jpg',
-            title: 'Movies - Github (React)',
-            url: 'https://github.com/stunoir/stunoir-movies-react',
           },
           {
             img: '',
