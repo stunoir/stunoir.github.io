@@ -4,9 +4,7 @@
       <div class="grid-x grid-padding-x">
         <div class="medium-8 cell">
           <h3 class="section-title">Work</h3>
-          <p class="section-summary">
-            A demo sample of {{ getTotalWork }} recent items carried out in my current role:
-          </p>
+          <p class="section-summary">A sample of {{ getTotalWork }} recent fun:</p>
         </div>
       </div>
       <br />
@@ -62,9 +60,9 @@
             url: 'https://github.com/stunoir/crwn-clothing',
           },
           {
-            img: '',
-            title: 'Some Website',
-            url: '',
+            img: '/assets/work/github.jpg',
+            title: 'My Github Profile',
+            url: 'https://github.com/stunoir',
           },
         ],
       }
