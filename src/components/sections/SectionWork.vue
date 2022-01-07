@@ -46,7 +46,7 @@
           },
           {
             img: '/assets/work/stuvies.jpg',
-            title: 'Movies Demo (JS)',
+            title: 'Movies (JS)',
             url: 'https://stunoir-movie-finder.netlify.app',
           },
           {
