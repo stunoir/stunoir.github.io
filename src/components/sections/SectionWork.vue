@@ -55,9 +55,9 @@
             url: 'https://github.com/stunoir/stunoir.github.io',
           },
           {
-            img: '/assets/work/ecomm.jpg',
-            title: 'Ecomm Demo (React)',
-            url: 'https://github.com/stunoir/crwn-clothing',
+            img: '/assets/work/co-track.png',
+            title: 'Tracker App (React)',
+            url: 'https://stunoir-tracker-app.netlify.app',
           },
           {
             img: '/assets/work/github.jpg',
