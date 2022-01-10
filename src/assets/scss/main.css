@@ -97,15 +97,21 @@ p strong { display: block; color: #392e52; font-weight: 400; }
 
 .work-card { background-color: rgba(255, 255, 255, 0.8); border-bottom: 4px solid rgba(78, 19, 119, 0.15); box-shadow: 0 0 10px rgba(57, 46, 82, 0.1); border-radius: 6px; margin-bottom: 2rem; display: block; transition: transform 0.3s; }
 
-.work-card .img { display: block; height: 220px; border-radius: 6px 6px 0 0; background-position: top center; background-repeat: no-repeat; background-size: cover; background-color: #392e52; box-shadow: 0 3px 10px rgba(57, 46, 82, 0.05); }
+.work-card .img { display: block; height: 200px; border-radius: 6px 6px 0 0; background-position: top center; background-repeat: no-repeat; background-size: cover; background-color: #392e52; box-shadow: 0 3px 10px rgba(57, 46, 82, 0.05); border-top: 3px solid #392e52; border-bottom: 3px solid #392e52; }
 
-.work-card .content { padding: 1.5rem; transition: background-color 0.3s; }
+.work-card .pills span { display: inline-block; font-size: 0.7rem; background-color: #eef0f6; color: #392e52; padding: 0.5rem 0.8rem; margin-right: 0.2rem; margin-bottom: 0.2rem; border-radius: 20px; }
 
-.work-card .content .title { color: #392e52; font-weight: 400; margin-bottom: 0; font-size: 1.3rem; font-weight: 300; }
+.work-card .work-cta { background-color: #392e52; color: #fff; display: block; padding: 0.5rem 0.8rem; text-align: center; border-radius: 0 0 0 6px; text-transform: uppercase; font-size: 0.9rem; transition: opacity 0.3s; opacity: 1; }
+
+.work-card .work-cta:hover { opacity: 0.6; }
+
+.work-card .work-cta--github { background-color: #5b4983; color: #fff; border-radius: 0 0 6px 0; }
+
+.work-card .content { padding: 0.8rem 1rem 1rem 1rem; transition: background-color 0.3s; }
+
+.work-card .content .title { color: #392e52; font-weight: 400; margin-bottom: 0.5rem; font-size: 1.3rem; font-weight: 500; }
 
 .work-card:hover { transform: translateY(-3px); }
-
-.work-card:hover .content { background-color: #fbfcfd; }
 
 .btn { display: inline-block; padding: 0.5rem 1rem; border-radius: 3px; transition: background-color 0.3s, color 0.3s; font-size: 1.1rem; margin-top: 0.5rem; border: 1px solid #392e52; color: #392e52; background-color: transparent; }
 
@@ -194,3 +200,4 @@ p strong { display: block; color: #392e52; font-weight: 400; }
   80% { transform: translateX(-15px); }
   100% { opacity: 1;
     transform: translateX(0); } }
+/*# sourceMappingURL=main.css.map */

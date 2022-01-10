@@ -12,12 +12,23 @@
       <!-- work grid -->
       <div v-if="work && work.length > 0" class="grid-x grid-padding-x medium-up-2 large-up-3">
         <div v-for="(item, index) in work" :key="index" class="cell">
-          <a :href="item.url" class="work-card">
+          <div class="work-card">
             <div class="img" v-bind:style="{ 'background-image': 'url(' + item.img + ')' }"></div>
             <div class="content">
               <p class="title">{{ item.title }}</p>
+              <div class="pills">
+                <span v-for="(pill, i) in item.pills" :key="i">{{ pill }}</span>
+              </div>
             </div>
-          </a>
+            <div class="grid-x">
+              <div :class="item.repo !== '' ? 'small-6 cell' : 'small-12 cell'">
+                <a :href="item.url" class="work-cta">View Site</a>
+              </div>
+              <div v-if="item.repo !== ''" class="small-6 cell">
+                <a :href="item.repo" class="work-cta work-cta--github">Github</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

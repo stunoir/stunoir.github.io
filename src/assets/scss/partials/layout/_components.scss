@@ -51,34 +51,63 @@
 
   .img {
     display: block;
-    height: 220px;
+    height: 200px;
     border-radius: 6px 6px 0 0;
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $col-purple;
     box-shadow: 0 3px 10px rgba($col-purple, 0.05);
+    border-top: 3px solid $col-purple;
+    border-bottom: 3px solid $col-purple;
+  }
+
+  .pills {
+    span {
+      display: inline-block;
+      font-size: 0.7rem;
+      background-color: $col-lilac;
+      color: $col-purple;
+      padding: 0.5rem 0.8rem;
+      margin-right: 0.2rem;
+      margin-bottom: 0.2rem;
+      border-radius: 20px;
+    }
+  }
+
+  .work-cta {
+    background-color: $col-purple;
+    color: #fff;
+    display: block;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    border-radius: 0 0 0 6px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    @include fader;
+
+    &--github {
+      background-color: lighten($col-purple, 15%);
+      color: #fff;
+      border-radius: 0 0 6px 0;
+    }
   }
 
   .content {
-    padding: 1.5rem;
+    padding: 0.8rem 1rem 1rem 1rem;
     transition: background-color 0.3s;
 
     .title {
       color: $col-purple;
       font-weight: 400;
-      margin-bottom: 0;
+      margin-bottom: 0.5rem;
       font-size: 1.3rem;
-      font-weight: 300;
+      font-weight: 500;
     }
   }
 
   &:hover {
     transform: translateY(-3px);
-
-    .content {
-      background-color: lighten($col-lilac, 4%);
-    }
   }
 }
 

@@ -2,33 +2,45 @@
   "work": [
     {
       "img": "/assets/work/foods.jpg",
-      "title": "Recipe Finder (React)",
-      "url": "https://stunoir-react-recipe-finder.netlify.app/"
+      "title": "Recipe Finder",
+      "url": "https://stunoir-react-recipe-finder.netlify.app/",
+      "repo": "https://github.com/stunoir/stunoir-recipes-react/",
+      "pills": ["React", "SASS", "Edamam API", "Axios", "Router", "Foundation", "UI Design"]
     },
     {
       "img": "/assets/work/stuvies2.jpg",
-      "title": "Movies (React)",
-      "url": "https://stunoir-react-movie-finder.netlify.app/"
+      "title": "Movies Finder",
+      "url": "https://stunoir-react-movie-finder.netlify.app/",
+      "repo": "https://github.com/stunoir/stunoir-movies-react/",
+      "pills": ["React", "SASS", "themoviedb API", "Axios", "Foundation", "UI Design"]
     },
     {
       "img": "/assets/work/stuvies.jpg",
-      "title": "Movies (JS)",
-      "url": "https://stunoir-movie-finder.netlify.app"
+      "title": "Movies Finder (JS)",
+      "url": "https://stunoir-movie-finder.netlify.app",
+      "repo": "https://github.com/stunoir/sturit-movies/",
+      "pills": ["JavaScript", "SASS", "themoviedb API", "Foundation", "UI Design"]
     },
     {
       "img": "/assets/work/portfolio.jpg",
-      "title": "Portfolio - Github (Vue.js)",
-      "url": "https://github.com/stunoir/stunoir.github.io"
+      "title": "Portfolio Site",
+      "url": "https://stunoir-portfolio.netlify.app",
+      "repo": "https://github.com/stunoir/stunoir.github.io",
+      "pills": ["Vue.js", "SASS", "JSON", "Foundation"]
     },
     {
       "img": "/assets/work/co-track.png",
-      "title": "Tracker App (React)",
-      "url": "https://stunoir-tracker-app.netlify.app"
+      "title": "Tracker App",
+      "url": "https://stunoir-tracker-app.netlify.app",
+      "repo": "https://github.com/stunoir/covid-tracker",
+      "pills": ["React", "Covid API", "Axios", "Chart.JS"]
     },
     {
       "img": "/assets/work/github.jpg",
       "title": "Github Profile",
-      "url": "https://github.com/stunoir"
+      "url": "https://github.com/stunoir",
+      "repo": "",
+      "pills": ["Profile link"]
     }
   ],
   "skills": [
