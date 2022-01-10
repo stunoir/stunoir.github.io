@@ -33,84 +33,14 @@
 </template>
 
 <script>
+  import dataJson from '../../data/data.json'
+
   export default {
     data() {
-      return {
-        skills: [
-          {
-            name: 'HTML',
-            icon: 'sh-icon-html5',
-          },
-          {
-            name: 'CSS / SCSS',
-            icon: 'sh-icon-sass',
-          },
-          {
-            name: 'JavaScript',
-            icon: 'sh-icon-javascript',
-          },
-          {
-            name: 'Vue.js',
-            icon: 'sh-icon-vue',
-          },
-          {
-            name: 'Accessibility',
-            icon: 'sh-icon-accessibility',
-          },
-          {
-            name: '3rd Party Integrations',
-            icon: 'sh-icon-api',
-          },
-          {
-            name: 'Performance',
-            icon: 'sh-icon-meter',
-          },
-          {
-            name: 'Git / Subversion',
-            icon: 'sh-icon-github',
-          },
-          {
-            name: 'Jira / Trello',
-            icon: 'sh-icon-jira',
-          },
-          {
-            name: 'Cypress',
-            icon: 'sh-icon-lab',
-          },
-          {
-            name: 'MS-SQL / T-SQL',
-            icon: 'sh-icon-database',
-          },
-          {
-            name: 'C# / Kentico',
-            icon: 'sh-icon-kentico',
-          },
-          {
-            name: 'Team Scheduling',
-            icon: 'sh-icon-team',
-          },
-          {
-            name: 'Team Mentoring',
-            icon: 'sh-icon-team',
-          },
-          {
-            name: 'Time Estimation & Quoting',
-            icon: 'sh-icon-timelapse',
-          },
-          {
-            name: 'Requirements Gathering',
-            icon: 'sh-icon-doc',
-          },
-          {
-            name: 'Client Liaising',
-            icon: 'sh-icon-handshake-o',
-          },
-          {
-            name: 'Presentations',
-            icon: 'sh-icon-microphone',
-          },
-        ],
-      }
+      return { skills: [] }
+    },
+    mounted() {
+      this.skills = dataJson.skills
     },
   }
 </script>

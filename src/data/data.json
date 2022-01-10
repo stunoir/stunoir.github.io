@@ -1,0 +1,176 @@
+{
+  "work": [
+    {
+      "img": "/assets/work/foods.jpg",
+      "title": "Recipe Finder (React)",
+      "url": "https://stunoir-react-recipe-finder.netlify.app/"
+    },
+    {
+      "img": "/assets/work/stuvies2.jpg",
+      "title": "Movies (React)",
+      "url": "https://stunoir-react-movie-finder.netlify.app/"
+    },
+    {
+      "img": "/assets/work/stuvies.jpg",
+      "title": "Movies (JS)",
+      "url": "https://stunoir-movie-finder.netlify.app"
+    },
+    {
+      "img": "/assets/work/portfolio.jpg",
+      "title": "Portfolio - Github (Vue.js)",
+      "url": "https://github.com/stunoir/stunoir.github.io"
+    },
+    {
+      "img": "/assets/work/co-track.png",
+      "title": "Tracker App (React)",
+      "url": "https://stunoir-tracker-app.netlify.app"
+    },
+    {
+      "img": "/assets/work/github.jpg",
+      "title": "Github Profile",
+      "url": "https://github.com/stunoir"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "icon": "sh-icon-html5"
+    },
+    {
+      "name": "CSS / SCSS",
+      "icon": "sh-icon-sass"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "sh-icon-javascript"
+    },
+    {
+      "name": "Vue.js",
+      "icon": "sh-icon-vue"
+    },
+    {
+      "name": "Accessibility",
+      "icon": "sh-icon-accessibility"
+    },
+    {
+      "name": "3rd Party Integrations",
+      "icon": "sh-icon-api"
+    },
+    {
+      "name": "Performance",
+      "icon": "sh-icon-meter"
+    },
+    {
+      "name": "Git / Subversion",
+      "icon": "sh-icon-github"
+    },
+    {
+      "name": "Jira / Trello",
+      "icon": "sh-icon-jira"
+    },
+    {
+      "name": "Cypress",
+      "icon": "sh-icon-lab"
+    },
+    {
+      "name": "MS-SQL / T-SQL",
+      "icon": "sh-icon-database"
+    },
+    {
+      "name": "C# / Kentico",
+      "icon": "sh-icon-kentico"
+    },
+    {
+      "name": "Team Scheduling",
+      "icon": "sh-icon-team"
+    },
+    {
+      "name": "Team Mentoring",
+      "icon": "sh-icon-team"
+    },
+    {
+      "name": "Time Estimation & Quoting",
+      "icon": "sh-icon-timelapse"
+    },
+    {
+      "name": "Requirements Gathering",
+      "icon": "sh-icon-doc"
+    },
+    {
+      "name": "Client Liaising",
+      "icon": "sh-icon-handshake-o"
+    },
+    {
+      "name": "Presentations",
+      "icon": "sh-icon-microphone"
+    }
+  ],
+  "certs": [
+    {
+      "name": "Microsoft",
+      "details": "Microsoft Certified Solutions Developer - MCSD"
+    },
+    {
+      "name": "Microsoft",
+      "details": "Programming with JavaScript & CSS3 - Specialist"
+    },
+    {
+      "name": "Kentico",
+      "details": "Kentico Certified Developer"
+    }
+  ],
+  "learning": [
+    {
+      "name": "Interaction Design Foundation",
+      "details": "IxD School - 2021 to present"
+    },
+    {
+      "name": "Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)",
+      "details": "Udemy - 2021 to present"
+    },
+    {
+      "name": "Vue.js 3",
+      "details": "Vue School - 2021 to present"
+    },
+    {
+      "name": "Nuxt.js",
+      "details": "Mastering Nuxt - 2021 to present"
+    },
+    {
+      "name": "React Front-To-Back 2021",
+      "details": "Udemy 2021 (completed)"
+    },
+    {
+      "name": "Management Academy",
+      "details": "News UK - 2021 (completed)"
+    },
+    {
+      "name": "Web Accessibility",
+      "details": "Udacity - 2020 (completed)"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Paul Sandhu Memorial Award",
+      "details": "Best IT Project"
+    },
+    {
+      "name": "Opera N.I. Shield",
+      "details": "NI Media Student of the Year"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "details": "Listening, writing, and recording. I’ve been lucky to have released a few albums with bands I’ve been in, and had the opportunity to play gigs and festivals around Germany, Austria, UK, and Ireland."
+    },
+    {
+      "name": "Painting",
+      "details": "I really enjoy building and painting models & miniatures. I have only been doing this for the last few years, but it’s a fantastic way to relax."
+    },
+    {
+      "name": "Films",
+      "details": "I’m a huge movie addict and enjoy getting together with friends to watch and discuss films."
+    }
+  ]
+}

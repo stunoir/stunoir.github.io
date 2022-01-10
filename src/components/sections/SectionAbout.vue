@@ -28,83 +28,24 @@
 </template>
 
 <script>
+  import dataJson from '../../data/data.json'
   import FeatureBlock from '../elements/FeatureBlock.vue'
 
   export default {
     components: { FeatureBlock },
     data() {
       return {
-        certs: [
-          {
-            name: 'Microsoft',
-            details: 'Microsoft Certified Solutions Developer - MCSD',
-          },
-          {
-            name: 'Microsoft',
-            details: 'Programming with JavaScript & CSS3 - Specialist',
-          },
-          {
-            name: 'Kentico',
-            details: 'Kentico Certified Developer',
-          },
-        ],
-        learning: [
-          {
-            name: 'Interaction Design Foundation',
-            details: 'IxD School - 2021 to present',
-          },
-          {
-            name: 'Complete React Developer in 2022 (w/ Redux, Hooks, GraphQL)',
-            details: 'Udemy - 2021 to present',
-          },
-          {
-            name: 'Vue.js 3',
-            details: 'Vue School - 2021 to present',
-          },
-          {
-            name: 'Nuxt.js',
-            details: 'Mastering Nuxt - 2021 to present',
-          },
-          {
-            name: 'React Front-To-Back 2021',
-            details: 'Udemy 2021 (completed)',
-          },
-          {
-            name: 'Management Academy',
-            details: 'News UK - 2021 (completed)',
-          },
-          {
-            name: 'Web Accessibility',
-            details: 'Udacity - 2020 (completed)',
-          },
-        ],
-        awards: [
-          {
-            name: 'Paul Sandhu Memorial Award',
-            details: 'Best IT Project',
-          },
-          {
-            name: 'Opera N.I. Shield',
-            details: 'NI Media Student of the Year',
-          },
-        ],
-        interests: [
-          {
-            name: 'Music',
-            details:
-              'Listening, writing, and recording. I’ve been lucky to have released a few albums with bands I’ve been in, and had the opportunity to play gigs and festivals around Germany, Austria, UK, and Ireland.',
-          },
-          {
-            name: 'Painting',
-            details:
-              'I really enjoy building and painting models & miniatures. I have only been doing this for the last few years, but it’s a fantastic way to relax.',
-          },
-          {
-            name: 'Films',
-            details: 'I’m a huge movie addict and enjoy getting together with friends to watch and discuss films.',
-          },
-        ],
+        certs: [],
+        awards: [],
+        learning: [],
+        interests: [],
       }
+    },
+    mounted() {
+      this.certs = dataJson.certs
+      this.awards = dataJson.awards
+      this.learning = dataJson.learning
+      this.interests = dataJson.interests
     },
   }
 </script>

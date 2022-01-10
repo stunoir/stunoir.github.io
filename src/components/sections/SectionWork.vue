@@ -25,6 +25,8 @@
 </template>
 
 <script>
+  import dataJson from '../../data/data.json'
+
   export default {
     computed: {
       getTotalWork() {
@@ -32,40 +34,10 @@
       },
     },
     data() {
-      return {
-        work: [
-          {
-            img: '/assets/work/foods.jpg',
-            title: 'Recipe Finder (React)',
-            url: 'https://stunoir-react-recipe-finder.netlify.app/',
-          },
-          {
-            img: '/assets/work/stuvies2.jpg',
-            title: 'Movies (React)',
-            url: 'https://stunoir-react-movie-finder.netlify.app/',
-          },
-          {
-            img: '/assets/work/stuvies.jpg',
-            title: 'Movies (JS)',
-            url: 'https://stunoir-movie-finder.netlify.app',
-          },
-          {
-            img: '/assets/work/portfolio.jpg',
-            title: 'Portfolio - Github (Vue.js)',
-            url: 'https://github.com/stunoir/stunoir.github.io',
-          },
-          {
-            img: '/assets/work/co-track.png',
-            title: 'Tracker App (React)',
-            url: 'https://stunoir-tracker-app.netlify.app',
-          },
-          {
-            img: '/assets/work/github.jpg',
-            title: 'Github Profile',
-            url: 'https://github.com/stunoir',
-          },
-        ],
-      }
+      return { work: [] }
+    },
+    mounted() {
+      this.work = dataJson.work
     },
   }
 </script>
