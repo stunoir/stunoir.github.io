@@ -1,6 +1,6 @@
 # Portfolio
 
-Portfolio site I built and designed. Uses HTML, SCSS, and Vue
+Portfolio site I built and designed using HTML, SCSS, and Vue.js.
 
 ## Project setup
 
@@ -19,13 +19,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
