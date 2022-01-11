@@ -40,7 +40,6 @@
           { item: 'sh-icon-javascript' },
           { item: 'sh-icon-sass' },
           { item: 'sh-icon-accessibility' },
-          { item: 'sh-icon-vue' },
         ],
       }
     },
